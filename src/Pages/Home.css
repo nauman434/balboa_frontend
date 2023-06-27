@@ -1,0 +1,49 @@
+.btn{
+    height: 40px;
+    color: white;
+    border-radius: 100px;
+}
+
+.btn_outline{
+    border: 1px solid #FBD107;
+    color: #FBD107;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    z-index: 5;
+    flex-direction: column;
+    box-shadow: 200px 200px 200px 200px #000;
+}
+
+.services{
+    background: url(../Asset/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+
+
+.card:hover{
+    background: #262626;
+    border: none;
+    color: #FBD107;
+    box-shadow: 4px 5px 10px rgba(251, 209, 7, 0.25);
+}
+
+@media screen and (max-width: 520px) {
+    .sidebar{
+        width: 70%;
+    }
+}
+
