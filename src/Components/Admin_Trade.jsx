@@ -33,17 +33,17 @@ const Admin_Trade = () => {
   // console.log(title);
   // console.log(description);
   
-  console.log(`https://balboabackend-production-35f3.up.railway.app/trade-finance/${toUpdate?._id}`);
+  // console.log(`https://balboabackend-production-35f3.up.railway.app/trade-finance/${toUpdate?._id}`);
 
-  useEffect(() => {
-    axios
-      .get("https://balboabackend-production-35f3.up.railway.app/trade-finance")
-      .then((res) => {
-        console.log(res.data[0]);
-        setDetails(res.data);
-      })
-      .catch((err) => console.log(err.message));
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get("https://balboabackend-production-35f3.up.railway.app/trade-finance")
+  //     .then((res) => {
+  //       console.log(res.data[0]);
+  //       setDetails(res.data);
+  //     })
+  //     .catch((err) => console.log(err.message));
+  // }, []);
 
   const openModal = () => {
     setIsOpen(true);
